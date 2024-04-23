@@ -1,0 +1,84 @@
+/* Write some CSS below */
+/*écrire du style*/
+
+/* selecteur(balise, la valeur de ma class ...){
+
+
+}
+balise ex h1 / 
+class = nomer une balise  */
+bodyy{
+    margin:0px;
+    background-color: gray;
+}
+
+h1{
+    color: red;
+}
+
+h1.red{
+    color:white;
+    front-size: 60px;
+    front-style: italic;
+    text-decoration: underline;
+}
+
+.banner{
+    background-image: url('images/background.jpg');
+    padding: 200px;
+    background
+    height:400px ;
+    width: 100px;
+    margin:0px
+}
+
+.banner >* {
+    color:'white';
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner h2{
+    font-size:60px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    margin: 0px;
+}
+
+.banner a{
+    padding:20px;
+    color:'white';
+    border-radius: 8px;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.banner a:hover{
+    padding:20px;
+    color:'white';
+    border-radius: 8px;
+    background-color: black;
+    border: 2px solid red;
+    font-size: 16px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5px;
+}
+
+.cards{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
